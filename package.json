@@ -1,0 +1,29 @@
+{
+  "name": "global-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js -d dist",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taran-dev-js/global-nodejs.git"
+  },
+  "author": "Taran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taran-dev-js/global-nodejs/issues"
+  },
+  "homepage": "https://github.com/taran-dev-js/global-nodejs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
